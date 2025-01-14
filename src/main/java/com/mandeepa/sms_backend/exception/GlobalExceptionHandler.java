@@ -14,7 +14,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.Map;
 
-@ControllerAdvice
+//@ControllerAdvice
 public class GlobalExceptionHandler {
     private final ObjectMapper objectMapper = new ObjectMapper();
     @ExceptionHandler(MethodArgumentNotValidException.class)

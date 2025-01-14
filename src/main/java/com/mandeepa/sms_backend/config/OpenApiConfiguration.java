@@ -10,17 +10,7 @@ import io.swagger.v3.oas.models.OpenAPI;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@OpenAPIDefinition(
-        info = @Info(
-                title = "Student Management System",
-                description = "API Documentation",
-                version = "1.0.0",
-                contact = @Contact(
-                        name = "Mandeepa De Silva",
-                        email = "mandeepadesilva4.14@gmail.com"
-                )
-        )
-)
+@OpenAPIDefinition
 @Configuration
 @SecurityScheme(
         name = "Authorization",
